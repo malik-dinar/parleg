@@ -1,0 +1,162 @@
+body{
+    margin: 0px;
+    background-color: black ;
+}
+
+.logo{
+    margin-left: 3rem;
+}
+
+@media (min-width:320px) and (max-width:425px){
+    .logo {
+        margin-left: 0px;
+    }
+}
+
+
+.nav-link{
+    margin-left: 3rem;
+}
+#navbarSupportedContent{
+    margin-left: 8rem;
+    font-size: 1.3rem;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.banner{
+    margin-top: 5rem;
+}
+.banner-img{
+    width: 100%;
+}
+.main-head{
+    background-color: rgb(25, 19, 110);
+    height: 14rem;
+}
+.head-text{
+    padding-top: 4rem;
+}
+.para1{
+    margin-top: 4rem;
+}
+.head-2{
+    font-size: 34px;
+    font-weight: 700;
+    color: #000;
+}
+.famimg{
+    display: flex;
+}
+
+.img-fam{
+    width: 80%;
+    transform: scale(0.80);
+    transition: 0.3s ease-in-out;
+}
+
+.img-fam:hover{
+    width: 80%;
+    transform: scale(1)
+}
+
+.gtext {
+    color: grey;
+    margin-left: 2rem;
+}
+.gtext:hover{
+    color: red;
+}
+.img-slide{
+    width: 21rem;
+    margin-left: 4rem;
+}
+.gap{
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+
+}
+.d-block {
+    width: 20%;
+    margin-left: 8rem;
+    writing-mode: vertical-rl;
+    float: left;
+}
+
+.slide{
+    background-color: rgb(211, 202, 202);
+}
+@media(max-width: 425px) {
+    .d-block {
+       width: 70%;
+       margin-left: 4rem;
+    }
+}
+.head-3{
+    font-size: 34px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+.lastpics{
+    background-color: #000;
+}
+.text-last-img{
+    color: #fff;
+    padding-left: 1rem;
+}
+@media(max-width: 767px) {
+        .gap-pics{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+}
+@media(min-width: 1024px) {
+    .text-last-img{
+        color: #fff;
+        padding-left: 3rem; 
+    }
+}
+@media(min-width: 1204px) and (max-width:1500px){
+    .last-img{
+       width: 27%;
+       margin-left: 70px
+    }
+}
+@media(min-width: 977px) and (max-width: 1204px){
+    .last-img{
+       width: 25%;
+        margin-left: 77px;
+    }
+}
+@media(min-width: 430px) and (max-width: 976px){
+    .last-img{
+       width: 24%;
+       margin-left: 50px
+    }
+}
+@media(max-width: 425px){
+    .last-img{
+       width: 85%;
+       margin-left: 20px
+    }
+}
+
+
+
+.row{
+    margin-right: -15px;
+    margin-left: 0px;
+}
+
+.warning-msg{
+    color: red;
+    font-weight: 400;
+}
